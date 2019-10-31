@@ -2,7 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
-
+import cart from './cart_2.png';
+import heart from './hearts.png';
 
 
 
@@ -38,5 +39,8 @@ storiesOf('Button', module)
     .add("Large light Warning", () => <Button label ="Warning" type="warning" large light/>)
     .add("Large light Default", () => <Button label ="Default" type="default" large light/>)
 
-    .add("Cart Button", () => <Button label="Add To Cart" type="cart"/>)
-    .add("Fav Button", () => <Button label="Add To Favorites" type="cart"/>)
+    .add("Cart Button", () => <Button label="Add To Cart" type="cart" icon={cart}/>)
+    .add("Fav Button", () => <Button label="Add To Favorites" type="cart" icon={heart}/>)
+
+    .add("Cart Small", () => <Button label="" type="cart" icon={cart}/>)
+    .add("Fav Small", () => <Button label="" type="cart" icon={heart}/>)

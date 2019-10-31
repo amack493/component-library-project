@@ -16,7 +16,9 @@ const Button = (props) => {
     if (props.light) {
         classList += ` button-light`
     }
+    
    return <button class={classList}>
+       <img src= {props.icon}/>
         {props.label}
     </button>
 }

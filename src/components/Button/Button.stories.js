@@ -38,3 +38,5 @@ storiesOf('Button', module)
     .add("Large light Warning", () => <Button label ="Warning" type="warning" large light/>)
     .add("Large light Default", () => <Button label ="Default" type="default" large light/>)
 
+    .add("Cart Button", () => <Button label="Add To Cart" type="cart"/>)
+    .add("Fav Button", () => <Button label="Add To Favorites" type="cart"/>)

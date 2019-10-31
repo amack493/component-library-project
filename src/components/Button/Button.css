@@ -59,11 +59,17 @@ button {
 
 .button-border {
      background-color: white;
-     color: #0069d9;
+     border:2px solid;
 }  
 
 .button-light {
     opacity: .5;
+}
+
+.button-cart {
+    color:#0069d9;
+    background-color:rgba(51, 160, 255, .2);
+    
 }
 
 

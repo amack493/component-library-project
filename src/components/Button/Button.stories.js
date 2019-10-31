@@ -14,7 +14,8 @@ storiesOf('Button', module)
     .add('Warning', () => <Button label="Warning" type="warning"/>)
     .add('Default', () => <Button label="Default" type="default"/>)
     .add('Primary Border', () => <Button label="Primary Border" type="primary" border/>) 
-    .add('Danger Border', () => <Button label="Danger Border" type="danger" border red/>) 
+    .add('Danger Border', () => <Button label="Danger Border" type="danger" border/>)
+    .add('Success Border', () => <Button label="Success Border" type="success" border/>) 
 
 
 

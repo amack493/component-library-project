@@ -13,6 +13,9 @@ const Button = (props) => {
     if (props.border) {
         classList += ` button-border`
     }
+    if (props.light) {
+        classList += ` button-light`
+    }
    return <button class={classList}>
         {props.label}
     </button>

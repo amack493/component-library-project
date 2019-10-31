@@ -30,18 +30,22 @@ button {
 
 .button-primary:hover{
     background-color: darkblue;
+    cursor: pointer;
 }
 
 .button-danger:hover {
     background-color: #F53848;
+    cursor: pointer;
 }
 
 .button-success:hover{
     background-color: #07C107;
+    cursor: pointer;
 }
 
 .button-warning:hover {
     background-color: #EBB600;
+    cursor: pointer;
 }
 
 .button-default {
@@ -54,9 +58,13 @@ button {
 }
 
 .button-border {
-    background-color: white;
-    border:2px solid; 
-    
+     background-color: white;
+     color: #0069d9;
 }  
+
+.button-light {
+    opacity: .5;
+}
+
 
 
